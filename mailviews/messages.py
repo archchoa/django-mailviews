@@ -31,7 +31,7 @@ class EmailMessageView(object):
 
         :rtype: :class:`dict`
         """
-        return Context(kwargs)
+        return kwargs
 
     def render_to_message(self, extra_context=None, **kwargs):
         """

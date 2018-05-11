@@ -1,6 +1,5 @@
 from django.core.exceptions import ImproperlyConfigured
 from django.core.mail.message import EmailMessage, EmailMultiAlternatives
-from django.template import Context
 from django.template.loader import get_template, select_template
 
 

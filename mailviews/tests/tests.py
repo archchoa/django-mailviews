@@ -77,7 +77,7 @@ class TemplatedEmailMessageViewTestCase(EmailMessageViewTestCase):
             'body': self.body,
         }
 
-        self.context = Context(self.context_dict)
+        self.context = self.context_dict
 
         self.render_subject = functools.partial(self.message.render_subject,
             context=self.context)
